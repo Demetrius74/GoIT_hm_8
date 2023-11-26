@@ -19,6 +19,6 @@ public class Main {
         // Тут рандомну фігуру вибираємо
         Shape randomShape = shapes.get(random.nextInt(shapes.size()));
 
-        System.out.println("Your shape is: "+randomShape.getName());
+        new PrintShape().printShapeName(randomShape);
     }
 }
